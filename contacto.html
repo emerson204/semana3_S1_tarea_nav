@@ -6,7 +6,9 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Contacto</h1>
+    <header>
+      <h1>Contacto</h1>
+    </header>
 
     <nav>
       <ul>
@@ -17,5 +19,64 @@
         <li><a href="./contacto.html">Contacto</a></li>
       </ul>
     </nav>
+
+    <form action="">
+      <h2>Ingresa tus datos</h2>
+
+      <div>
+        <label for="nombre">Nombre</label>
+        <input
+          type="text"
+          id="nombre"
+          placeholder="Ingresa tu nombre"
+          autocomplete="off"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="apellido">Apellido</label>
+        <input
+          type="text"
+          id="apellido"
+          placeholder="Ingresa tu apellido"
+          autocomplete="off"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Ingresa tu email"
+          autocomplete="off"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="number">Telefono / Celular </label>
+        <input
+          type="number"
+          id="number"
+          placeholder="Ingresa tu celular"
+          autocomplete="off"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="message">Mensaje de pedido</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="20"
+          rows="5"
+          placeholder="Ingresa el mensaje de producto a pedir"
+        ></textarea>
+      </div>
+    </form>
   </body>
 </html>
